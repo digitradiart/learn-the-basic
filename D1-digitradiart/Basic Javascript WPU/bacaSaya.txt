@@ -1,0 +1,25 @@
+Playlist: Dasar Pemrograman Javascript - Pak Shandika Galih Web Progranmming UNPAS
+01. Intro
+02. Apa Itu Pemrograman
+03. Bahasa Pemrograman
+04. Compiler vs Interpreter
+05. Kenapa Belajar Javascript
+06. Sejarah Javascript
+07. Lingkungan Pengembangan Javascript
+08. Nilai dan Tipe Data pada Javascript
+09. Tipe Data pada Javascript: Angka
+10. Operator pada Javascript: Aritmatika, Penugasan, Perbandingan 
+11. Operator pada Javascript: Logika, String, TypeOf, Kondisional
+12. Tipe Data pada Javascript: String
+13. Tipe Data pada Javascript: Boolean
+14. Variable pada Javascript
+15. Menulis Javascript
+16. Popup Box /Dialog Box pada Javascript
+17. Perulangan: While
+18. Tabel Penelusuran == trace rable == dry-run text
+19. Perulangan: For
+20. Pengkondisian: if dan else
+21. Pengkondisian: else if
+22. Latihan Pengkondisian pada Javascript
+23. Perulangan: Switch
+24. 
