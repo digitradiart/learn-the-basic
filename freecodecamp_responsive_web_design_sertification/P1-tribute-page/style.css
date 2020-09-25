@@ -36,7 +36,7 @@ h3 {
 
 #main {
     margin: 30px 8px;
-    padding: 15%;
+    padding: 5% 15%;
     border-radius: 5px;
     background: #eee;
 }
@@ -65,4 +65,30 @@ img {
   padding: 5%;
   border-radius: 10px;
   box-shadow: 5px 10px 8px #888888;
+}
+
+/* RESPONSIVE */
+@media (max-width: 700px) {
+  h1 {
+    font-size: 3.5rem;
+    line-height: 1.2;
+  }
+
+  #main {
+    margin: 0;
+    padding: 10px;
+  }
+
+  #img-caption {
+    font-size: 1.4rem;
+  }
+}
+
+a {
+  color: blue;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
 }
