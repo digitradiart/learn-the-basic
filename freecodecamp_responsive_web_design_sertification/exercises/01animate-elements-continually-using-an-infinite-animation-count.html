@@ -1,33 +1,71 @@
-<style>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Freecodecamp Project - Tribute Page">
+    <meta name="keywords" content="HTML, CSS">
+    <meta name="author" content="digitradiart">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>infinite animation using: count</title>
 
-  #ball {
-    width: 100px;
-    height: 100px;
-    margin: 50px auto;
-    position: relative;
-    border-radius: 50%;
-    background: linear-gradient(
-      35deg,
-      #ccffff,
-      #ffcccc
-    );
-    animation-name: bounce;
-    animation-duration: 1s;
-    animation-iteration-count: infinite;
-  }
+    <style> /* nyisipin CSS secara internal di file HTML*/
+      body {
+        background-color: darkgrey;
+      }
 
-  @keyframes bounce{
-    0% {
-      top: 0px;
-    }
-    50% {
-      top: 249px;
-      width: 130px;
-      height: 70px;
-    }
-    100% {
-      top: 0px;
-    }
-  }
-</style>
-<div id="ball"></div>
+      h1 {
+        font-size: 1.2em;
+        text-align: center;
+      }
+
+      p {
+        font-size: 0.8em;
+        bottom: 0;
+        position: absolute;
+        text-align: center;
+      }
+
+      #ball {
+        width: 100px;
+        height: 100px;
+        margin: 50px auto;
+        position: relative;
+        border-radius: 50%;
+        background: linear-gradient(
+          45deg,
+         blue,
+         red
+        );
+        animation-name: bounce;
+        animation-duration: 1s;
+        animation-iteration-count: infinite; /*ini poinnya*/
+      }
+    
+      @keyframes bounce{
+        0% {
+          top: 0px;
+        }
+        50% {
+          top: 320px;
+          width: 130px;
+          height: 70px;
+        }
+        100% {
+          top: -10px;
+        }
+      }
+    </style>
+  </head> 
+
+  <body> <!--Body nya segini doang lol :D-->
+    <header><h1>infinite-animation-iteration using: count </h1></header>
+    <main>
+      <div id="ball"></div>
+    </main>
+    <footer>
+      <p>
+        Barangkali faedah. Si @digitradiart lagi ngumpulin retjehan :D
+      </p>
+    </footer>
+  </body>
+</html>
