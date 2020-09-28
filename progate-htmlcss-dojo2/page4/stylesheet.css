@@ -1,0 +1,184 @@
+*{
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Lucida Grande";
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.top-wrapper {
+  padding: 180px 0 100px 0;
+  background-image: url(https://prog-8.com/images/html/advanced/top_en.png);
+  background-size: cover;
+  color: white;
+  text-align: center;
+}
+
+.top-wrapper h1 {
+  opacity: 0.7;
+  font-size: 45px;
+  letter-spacing: 5px;
+  margin: 10px;
+}
+
+.top-wrapper p {
+  opacity: 0.7;
+  margin: 3px;
+}
+
+.btn-wrapper {
+  margin: 20px 0;
+}
+
+.btn-wrapper p {
+  margin: 10px 0;
+}
+
+.signup {
+  background-color: #239b76;
+}
+
+.facebook {
+  background-color: #3b5998;
+  margin-right: 10px;
+}
+
+.twitter {
+  background-color: #55acee;
+}
+
+.btn {
+  padding: 12px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.fa {
+  margin-right: 5px;
+}
+
+/* Tambahkan CSS untuk tag <header> */
+header {
+  height: 65px;
+  width: 100%;
+  background-color: rgba(34, 49, 52, 0.9);
+}
+
+
+/* Tambahkan CSS untuk logo */
+.logo {
+  width: 124px;
+  margin-top:20px;
+}
+
+header {
+  background-color: rgba(34, 49, 52, 0.9);
+  position: fixed;
+  height: 65px;
+  z-index: 10;
+}
+
+/*bagian header*/
+.header-left img {
+  width: 200px;
+  float: left;
+  padding: 20px;
+  padding-left: 40px;
+}
+
+.header-right a {
+  color: white;
+  display: inline-block;
+  float: right;
+  padding: 25px;
+  margin-right: 50px;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+.header-right a:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+/*bagian lessons-wrapper*/
+
+.lesson-wrapper {
+  height: 550px;
+  padding-bottom: 30px;
+  text-align: center;
+  background-color: #f7f7f7;
+  text-align: center;
+  padding-bottom: 200px;
+}
+
+.heading {
+  padding-top: 30px;
+  padding-bottom: 20px;
+  color: #5f5d60;
+}
+
+.heading h2 {
+  font-weight: normal;
+}
+
+.lesson {
+  float: left;
+  width: 25%;
+}
+
+.lesson-icon {
+  position: relative;
+}
+
+.lesson-icon p {
+  position: absolute;
+  top: 90px;
+  width: 100%;
+  color: white;
+}
+
+.text-message {
+  width: 80%;
+  color: #b3aeb5;
+  display: inline-block;
+  font-size: 15px;
+}
+
+/*message-wrapper*/
+.message-wrapper {
+  padding-bottom: 80px;
+  border-bottom: 1px solid #eee;
+  text-align: center;
+}
+
+.message {
+  background-color: #5dca88;
+  padding: 15px 40px;
+  cursor: pointer;
+  box-shadow: 0 7px #1a7940;
+}
+.message h1{
+  font-weight: normal;
+}
+
+.message:active {
+  box-shadow: none;
+  position: relative;
+  top: 7px;
+}
