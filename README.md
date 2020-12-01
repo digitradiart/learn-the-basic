@@ -1,2 +1,2 @@
 # Return0
-Bismillah,I am documenting my #100daysofcode process. Feel free to save for educational purposes only.
+Bismillah,I am documenting my learning process. Feel free to save for educational purposes only.
