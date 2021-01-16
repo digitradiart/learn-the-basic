@@ -1,8 +1,22 @@
-# Tetapkan sebuah list string ke variable fruits
-fruits = ['apel', 'pisang', 'jeruk']
+# Assign a list of strings to the fruits variable
+fruits = ['apple','banana','orange']
 
-# Cetak element di index 0
+# Print the element at index 0 
 print(fruits[0])
 
-# Gabungkan string dan element di index 2, dan cetak hasilnya
-print('Saya suka ' + fruits[2])
+# Concatenate the string and the element at index 2, and print the result
+print("I like "+fruits[2]+'s')
+
+fruits = ['apple', 'banana', 'orange']
+
+# Add 'grape' to 'fruits'
+fruits.append('grape')
+
+# Print 'fruits'
+print(fruits)
+
+# Update the element at index 0
+fruits[0]='cherry'
+
+# Print the element at index 0
+print(fruits[0])
