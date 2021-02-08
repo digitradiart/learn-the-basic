@@ -12,3 +12,24 @@
 // Enough information!
 // Now let's get to work.
 // Start Exercise
+
+// Booleans
+// The "true" printed in the previous slide is called a boolean.
+// There are only two boolean values; true and false. Conditional statements evaluate to "true" when the condition is met and "false" when it does not. You can see how this works in the examples below.
+
+/* Comparing Greater and Lesser Values
+The > symbol that was used in the conditional statement is a comparison operator which compares the size of values.
+For a < b, when a is less than b the statement will be true, but false when it is greater than b. Also, for a <= b, when a is less than or equal to b, the statement will be true, like the symbol ≦ used in mathematics. */
+
+const age = 24;
+
+// Output the result of age >= 18
+console.log(age >= 18);
+
+// Output the result of age < 18
+console.log(age < 18);
+
+// When the value of age is 18 or greater, output "I am 18 or older"
+if(age >= 18) {
+  console.log("Iam 18 or older");
+}
