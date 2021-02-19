@@ -1,0 +1,2 @@
+// Using Nested Objects
+// Objects can be used instead of strings and integers as values in an object. In the example below, an object is used as the value for the favorite property in the character object.
