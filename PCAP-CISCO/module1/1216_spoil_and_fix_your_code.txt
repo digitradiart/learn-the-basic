@@ -1,0 +1,28 @@
+
+How to spoil and fix your code
+
+Now start IDLE again.
+
+    Click File, Open, point to the file you saved previously and let IDLE read it in.
+    Try to run it again by pressing F5 when the editor window is active.
+
+As you can see, IDLE is able to save your code and retrieve it when you need it again.
+
+IDLE contains one additional and helpful feature.
+
+    First, remove the closing parenthesis.
+    Then enter the parenthesis again.
+
+Your code should look like the one down here:
+Hisssssss...
+
+output
+
+
+Python 3.7.0 IDLE - Running a program after removing parenthesis from the print() function
+
+Every time you put the closing parenthesis in your program, IDLE will show the part of the text limited with a pair of corresponding parentheses. This helps you to remember to place them in pairs.
+
+Remove the closing parenthesis again. The code becomes erroneous. It contains a syntax error now. IDLE should not let you run it.
+
+Try to run the program again. IDLE will remind you to save the modified file. Follow the instructions.

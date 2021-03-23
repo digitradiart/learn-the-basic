@@ -1,0 +1,18 @@
+
+How to spoil and fix your code
+
+Watch all the windows carefully.
+
+A new window appears – it says that the interpreter has encountered an EOF (end-of-file) although (in its opinion) the code should contain some more text.
+
+The editor window shows clearly where it happened.
+Python 3.7.0 IDLE - Console message after running a program with removed parenthesis from the print() function
+
+
+Fix the code now. It should look like this:
+print("Hisssssss...")
+
+
+Run it to see if it "hisses" again.
+
+Let's spoil the code one more time. Remove one letter from the word print. Run the code by pressing F5. As you can see, Python is not able to recognize the error.
